@@ -12,5 +12,5 @@ Due to diminishing pressure maxima, the sum of pressure of the interface is less
 # Results with an Interpolated 60x60 Input
 ### Algorithm
 ![](https://github.com/Nagillimi/PosturalCorrection/blob/main/Results/AlgorithmResults_withDiscreteBladderOutput.png?raw=true)
-### Acording to Seat Interface Geometry
+### Acording to Discrete Seat Interface Geometry
 ![](https://github.com/Nagillimi/PosturalCorrection/blob/main/Results/BladderGeo.png?raw=true)
