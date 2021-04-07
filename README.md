@@ -3,9 +3,9 @@ An algorithm to reduce local seat pressure maxima. Computes a target pressure ba
 
 # Steps
 ## Collect average postural data
-During a x-minute period, a pressure matrix reading is collected towards an average posture (over an entire static period between repositioning cycles) 
+During a x-minute period, a pressure matrix reading is collected towards an average posture (over the static x period between repositioning cycles) 
 ## Compute mean, sum, and local maxima recognition
-That average informs the repositioning algorithm of the large pressure centers, a mean pressure, and the average sum of interface pressures.
+That average informs the repositioning algorithm of large pressure centers, a mean pressure, and the average sum of interface pressures.
 ## Reduce local maxima
 The first step in the repositioning algorithm is to collect all elements in the matrix that fall above the mean. To proportionally diminish these higher peaks, the difference between the maximum and mean is subtracted from the respective input, while also including scaling and weight parameters. This step repeats for all elements in the 60x60 array, which itself repeats recursively until the adjusted maxima fall below a designed threshold.
 ## Recover the interface sum of pressures
