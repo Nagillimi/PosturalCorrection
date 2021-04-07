@@ -15,7 +15,7 @@ function [Ptarget,Psum] = Redistribution_Algorithm(Pin,showfig)
     L = length(Pin);
     
     % runs recursive model to dampen the pressure peaks
-    [Pmean,Pinterm,PintermSum] = Recursive_Model(Pin,PinSum);
+    [Pmean,Pinterm,PintermSum] = Peak_Reduction(Pin,PinSum);
     
     % fix the error in the sum, matches the output to the input
     [Ptarget,PtargetSum] = Fix_Sum(Pinterm,Pmean,PintermSum,PinSum);
