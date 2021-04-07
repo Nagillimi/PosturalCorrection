@@ -1,6 +1,4 @@
-# PosturalCorrection
-An algorithm to reduce local seat pressure maxima. Computes a target pressure based on current/real-time postural input to inform a seat made from an array of individual air bladders.
-# Algorithm Steps
+# PosturalCorrection Algorithm Steps
 ### Collect average postural data
 During a x-minute period, a pressure matrix reading is collected towards an average posture (over the static x period between repositioning cycles)
 ### Compute mean, sum, and local maxima recognition
