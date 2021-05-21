@@ -1,4 +1,4 @@
-# PosturalCorrection Algorithm Steps
+# Local Pressure Correction Algorithm Steps
 ### Collect average postural data
 During a x-minute period, a pressure matrix reading is collected towards an average posture (over the static x period between repositioning cycles)
 ### Compute mean, sum, and local maxima recognition
